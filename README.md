@@ -1,13 +1,17 @@
-# Sample Hardhat Project
+MyToken - ERC20 & ERC721 Smart Contract
 
-This project demonstrates a basic Hardhat use case. It comes with a sample contract, a test for that contract, and a Hardhat Ignition module that deploys that contract.
+- Description
+This project includes the implementation of an ERC-20 token and an ERC-721 NFT, developed using Solidity and OpenZeppelin. It also contains scripts for deployment and testing using Hardhat and Viem.
 
-Try running some of the following tasks:
+- Features
+ERC-20 token with standard functions such as transfer, totalSupply, and balanceOf.
+ERC-721 NFT implementation using OpenZeppelin.
+Deployment and contract management with Viem and Hardhat.
+Automated tests for transfer events using Mocha and Chai.
 
-```shell
-npx hardhat help
-npx hardhat test
-REPORT_GAS=true npx hardhat test
-npx hardhat node
-npx hardhat ignition deploy ./ignition/modules/Lock.ts
-```
+- Technologies Used
+Solidity
+OpenZeppelin
+Hardhat
+Viem
+Mocha & Chai
